@@ -54,16 +54,28 @@ main {
   min-height: 100px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
-    .btn {
-      background-color: transparent;
-      color: var(--light);
-      border-color: var(--primary);
-      padding: 0.75rem;
-      border-width: 3px;
+    .btn-section {
+      display: flex;
+      padding-left: 6rem;
+      .btn {
+        background-color: transparent;
+        color: var(--light);
+        border-color: var(--primary);
+        padding: 0.75rem;
+        border-width: 3px;
+      }
     }
 
-    h3 {
-      color: var(--primary);
+    .social-section {
+      display: flex;
+      align-items: center;
+      padding-right: 6rem;
+      gap: 1rem;
+
+      h3 {
+        color: var(--primary);
+      }
     }
 }
