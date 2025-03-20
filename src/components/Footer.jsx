@@ -3,9 +3,15 @@ export default function Footer() {
     return (
         <footer>
             <section className="footer-up">
-                content here
+                <ul className="ul-up">
+                    <li><img className="middle-img" src="/img/buy-comics-digital-comics.png" alt="" srcset="" /> DIGITAL COMICS</li>
+                    <li><img className="middle-img" src="/img/buy-comics-merchandise.png" alt="" srcset="" /> DC MERCHANDISE</li>
+                    <li><img className="middle-img" src="/img/buy-comics-subscriptions.png" alt="" srcset="" /> SUBSCRIPTION</li>
+                    <li><img className="middle-img" src="/img/buy-comics-shop-locator.png" alt="" srcset="" /> COMIC SHOP LOCATOR</li>
+                    <li><img className="middle-img" src="/img/buy-dc-power-visa.svg" alt="" srcset="" /> DC POWER VISA</li>
+                </ul>
             </section>
-            
+
             <section className="footer-middle">
                 content here
             </section>

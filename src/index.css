@@ -10,7 +10,7 @@
 :root {
   --dark: #1C1C1C;
   --primary: #0282F9;
-  --grey: #464646;
+  --grey: #303030;
   --light: #FFFFFF;
 }
 
@@ -46,7 +46,28 @@ main {
   text-align: center;
 }
 
+.footer-up {
+  background-color: var(--primary);
+  min-height: 150px;
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 300;
+        .middle-img {
+          width: 50px;
+        }
+    }
+}
 
+.footer-middle {
+  background-image: url('/public/img/footer-bg.jpg');
+  min-height: 400px;
+}
 
 
 .footer-bottom {
@@ -64,7 +85,7 @@ main {
         color: var(--light);
         border-color: var(--primary);
         padding: 0.75rem;
-        border-width: 3px;
+        border-width: 2px;
       }
     }
 
