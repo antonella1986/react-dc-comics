@@ -4,7 +4,39 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark: #1C1C1C;
+  --primary: #0282F9;
+  --grey: #464646;
+  --light: #FFFFFF;
+}
+
+li {
+  list-style: none;
+}
+
 header {
-  background-color: white;
-  min-height: 250px;
+  padding: 1rem 4rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: var(--light);
+  
+    ul {
+      display: flex;
+      gap: 1rem;
+    }
+}
+
+a {
+  text-decoration: none;
+  color: var(--grey);
+}
+
+main {
+  background-color: var(--dark);
+  min-height: 350px;
+  color: var(--light);
+  text-align: center;
 }
