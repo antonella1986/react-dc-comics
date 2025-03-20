@@ -41,22 +41,26 @@ header {
 
 main {
   background-color: var(--dark);
-  min-height: 200px;
+  min-height: 150px;
   color: var(--light);
   text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 6rem;
 }
 
 .footer-up {
   background-color: var(--primary);
-  min-height: 150px;
+  min-height: 170px;
   color: var(--light);
   display: flex;
   justify-content: center;
   align-items: center;
     ul {
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       font-weight: 300;
         .middle-img {
           width: 50px;

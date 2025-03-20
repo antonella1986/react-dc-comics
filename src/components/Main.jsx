@@ -3,6 +3,9 @@ export default function Main() {
     return (
         <main className="text-center">
             <h1>Content here</h1>
+            <ul>
+                <h3>CD COMICS</h3>
+            </ul>
         </main>
     )
 }
