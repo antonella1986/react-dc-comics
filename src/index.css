@@ -54,7 +54,6 @@ main {
   min-height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 
     .btn {
       background-color: transparent;
@@ -62,5 +61,9 @@ main {
       border-color: var(--primary);
       padding: 0.75rem;
       border-width: 3px;
+    }
+
+    h3 {
+      color: var(--primary);
     }
 }
