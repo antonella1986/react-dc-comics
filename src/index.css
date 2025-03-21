@@ -69,8 +69,23 @@ main {
 }
 
 .footer-middle {
-  background-image: url('/public/img/footer-bg.jpg');
+  background-image: url('/img/footer-bg.jpg');
   min-height: 400px;
+  display: flex;
+  line-height: 2rem;
+  padding-bottom: 3rem;
+  
+  ul {
+    margin-left: 6rem;
+    padding-top: 2.5rem;
+  }
+
+  h3 {
+    color: var(--light);
+  }
+  li {
+    color: grey;
+  }
 }
 
 
