@@ -46,7 +46,6 @@ header {
 
 main {
   background-color: var(--dark);
-  min-height: 150px;
   color: var(--light);
   display: flex;
   justify-content: center;
@@ -62,13 +61,13 @@ main {
 
     .container-cards {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 1rem;
       padding: 1rem;
     }
     
-    .card {
+    .cards {
       width: 200px;
       padding: 16px;
     }
@@ -79,7 +78,7 @@ main {
     }
     
     .comic-card-title {
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin: 8px 0;
     }
 
