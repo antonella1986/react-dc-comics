@@ -48,11 +48,25 @@ main {
   background-color: var(--dark);
   min-height: 150px;
   color: var(--light);
-  text-align: center;
   display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 6rem;
+
+    .container-jumbotron {
+      background-image: url("/img/jumbotron.jpg");
+      background-size: cover;
+      height: 300px;
+      width: 100%;
+      
+    }
+
+    .rowCards {
+      display: flex;
+    }
+
+    .card {
+      text-align: center;
+      max-width: 100px;
+      max-height: 100px;
+    }
 }
 
 .footer-up {
@@ -106,11 +120,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "Big Shoulders", sans-serif;
 
     .btn-section {
       display: flex;
       padding-left: 6rem;
+      
       .btn {
+        font-family: "Big Shoulders", sans-serif;
         background-color: transparent;
         color: var(--light);
         border-color: var(--primary);
