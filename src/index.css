@@ -60,14 +60,29 @@ main {
       width: 100%;
     }
 
+    .container-cards {
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+    }
+
     .cards {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 1rem;
       padding: 1rem;
-      width: 100px;
+      width: 80%;
       padding: 16px;
+
+        .cardsCard {
+          width: calc(100% / 6 - 1rem);
+          align-items: center;
+
+            .comic-card-image {
+              width: 100%;
+            }
+        }
     }
     
     .comic-card-title {
