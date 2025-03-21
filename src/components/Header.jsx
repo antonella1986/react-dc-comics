@@ -3,8 +3,8 @@ export default function Header() {
     return (
         <header>
 
-            <img src="/img/dc-logo.png" alt="" srcset="" />
-            <ul>
+            <img className="logo" src="/img/dc-logo.png" alt="" srcset="" />
+            <ul className="titles">
                 <li><a href="http://">CHARACTERS</a></li>
                 <li><a href="http://">COMICS</a></li>
                 <li><a href="http://">MOVIES</a></li>
