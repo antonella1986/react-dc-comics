@@ -30,6 +30,7 @@ export default function Footer() {
                         <li>Shop DC Collectibles</li>
                     </ul>
                 </div>
+                <img className="logo-bg" src="/img/dc-logo-bg.png" alt="" srcset="" />
                 <div className="second-col">
                     <ul>
                         <li><h3>DC</h3></li>
