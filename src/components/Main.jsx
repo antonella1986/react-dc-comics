@@ -5,11 +5,14 @@ export default function Main() {
     return (
         <main>
             <div className="container-jumbotron"></div>
+            <div>
+                <button className='series-btn'>CURRENT SERIES</button>
+            </div>
             <div className="container-cards">
                 <ComicsList />
             </div>
             <div>
-                <button className="load">LOAD MORE</button>
+                <button className="load-btn">LOAD MORE</button>
             </div>
         </main>
     )

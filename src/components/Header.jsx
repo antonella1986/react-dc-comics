@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <header>
 
-            <img className="logo" src="/img/dc-logo.png" alt="" srcset="" />
+            <a href="https://www.dc.com/" target="_blank" rel="noopener noreferrer"><img className="logo" src="/img/dc-logo.png" alt="logo DC Comics" /></a>
             <ul className="titles">
                 <li><a href="http://">CHARACTERS</a></li>
                 <li><a href="http://">COMICS</a></li>
