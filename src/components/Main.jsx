@@ -12,7 +12,7 @@ export default function Main() {
                 <ComicsList />
             </div>
             <div>
-                <button className="load-btn">LOAD MORE</button>
+                <a href="https://www.qualitycomix.com/learn/dc-comics-facts-you-never-knew" target="_blank" rel="noopener noreferrer"><button className="load-btn">LOAD MORE</button></a>
             </div>
         </main>
     )
